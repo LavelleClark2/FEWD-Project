@@ -11,12 +11,38 @@ h1{
  p{
      font-size: 25px; 
      text-align: center;
-     color: blue;
+     color: red;
+     background-color: black;
+     opacity: 0.7;
+     position: relative;
+     top: 350px;
 }
 a{
     font-size: 21px;
     font-family: fantasy;
+    color: white;
+}
+nav{
+    background-color: black;
 }
 div{
     text-align: center;
+}
+#Opening{
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+@media (min-aspect-ratio:16/9) {
+    #Opening {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9) {
+    #Opening {
+        width: auto;
+        height: 100%;
+    }
 }
