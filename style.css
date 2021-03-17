@@ -21,12 +21,11 @@ a{
     font-size: 21px;
     font-family: fantasy;
     color: white;
+    margin-right: 79px;
 }
-nav{
+.header{
+    padding: 25px;
     background-color: black;
-}
-div{
-    text-align: center;
 }
 #Opening{
     position: fixed;
