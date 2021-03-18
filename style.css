@@ -13,7 +13,6 @@ h1{
      text-align: center;
      color: red;
      position: relative;
-     
 }
 p:hover{
     background-color: black;
@@ -31,6 +30,7 @@ a{
 #Opening{
     position: static
     z-index: -1;
+    height: 250px;
     
 }
 @media (min-aspect-ratio:16/9) {
