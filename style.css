@@ -28,7 +28,7 @@ a{
     background-color: black;
 }
 #Opening{
-    position: static
+    position: static;
     z-index: -1;
     height: 250px;
     
@@ -45,12 +45,25 @@ a{
         height: 100%;
     }
 }
-#SSJ4 Gogeta Gameplay{
-    position: static
-    z-index: -1;
-    height: 250px;
-}
+
+
 img{
-    width: 500px;
-    height: 700px;
+    position: static;
+    width: 600px;
+    height: 400px;
 }
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  ul{
+            display: inline-block;
+            *display: inline;
+            zoom:1
+            
+        }
+        h2{
+            text-align: center;
+        }
