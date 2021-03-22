@@ -14,9 +14,7 @@ h1{
      color: red;
      position: relative;
 }
-p:hover{
-    background-color: black;
-}
+
 a{
     font-size: 21px;
     font-family: fantasy;
@@ -48,15 +46,17 @@ a{
 
 
 img{
-    position: static;
-    width: 600px;
-    height: 400px;
+    width: 1503px;
+    height: 700px;
+}
+.left{
+    height: 1100px;
 }
 .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    float: left;
+    height: 470px;
+    width: 32%;
+    padding: 0 10px;
 }
   ul{
             display: inline-block;
