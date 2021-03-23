@@ -46,24 +46,35 @@ a{
 
 
 img{
-    width: 1503px;
+    width: 1519px;
     height: 700px;
 }
-.left{
-    height: 1100px;
+
+
+.container{
+    background-color: white;
+    border-style: ridge;
+    border-color: black;
 }
-.center{
-    float: left;
-    height: 470px;
-    width: 32%;
-    padding: 0 10px;
-}
+
   ul{
-            display: inline-block;
-            *display: inline;
-            zoom:1
-            
+      font-size: 25px;
+      color: red;
+      display: inline-block;
+     *display: inline;
+      zoom:1.5;
         }
         h2{
             text-align: center;
         }
+#list1{
+    zoom:0.9;
+}
+#list2{
+    zoom:0.9;
+    line-height: 63px
+}
+#list3{
+    zoom:0.9;
+    line-height: 325px;
+}
