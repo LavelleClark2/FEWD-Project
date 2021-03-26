@@ -9,17 +9,17 @@ h1{
 }
 
  p{
-     font-size: 25px; 
+     font-size: 21px; 
      text-align: center;
      color: red;
      position: relative;
 }
 
 a{
-    font-size: 21px;
+    font-size: 20px;
     font-family: fantasy;
     color: white;
-    margin-right: 79px;
+    margin-right: 75px;
 }
 .header{
     padding: 25px;
@@ -28,7 +28,6 @@ a{
 #Opening{
     position: static;
     z-index: -1;
-    height: 250px;
     
 }
 @media (min-aspect-ratio:16/9) {
@@ -62,7 +61,7 @@ img{
       color: red;
       display: inline-block;
      *display: inline;
-      zoom:1.5;
+      zoom:1;
         }
         h2{
             text-align: center;
@@ -77,4 +76,5 @@ img{
 #list3{
     zoom:0.9;
     line-height: 325px;
+    padding: 100px;
 }
